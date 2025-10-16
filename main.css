@@ -1,0 +1,19 @@
+/*mortis ghost hand writing in font format, pretty sick*/
+@font-face {
+  font-family: "MortisGhost";
+  src: url("https://solomonthelast.neocities.org/fonts/MortisGhost.otf") format("opentype");
+}
+
+/* this is the background */
+body {
+    background-color:black;
+    background-image:url("https://solomonthelast.neocities.org/images/sparklestarsbg.gif");
+    margin:0;
+    padding:0;
+}
+
+#header-title img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+ }
