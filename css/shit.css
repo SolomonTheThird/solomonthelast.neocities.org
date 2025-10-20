@@ -1,0 +1,16 @@
+body {
+    background-color:whitesmoke;
+    background-image:url("https://solomonthelast.neocities.org/images/SKY1.png");
+    margin:0;
+    /* padding:0; cursor: url("/cursor.png"), auto; */
+}
+header {
+    background-image:url("https://solomonthelast.neocities.org/images/fishbanner.png");
+    padding: 10px 0;
+    text-align: center;
+}
+header.header-title img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+ }
