@@ -12,8 +12,8 @@ body {
     /* padding:0; cursor: url("/cursor.png"), auto; */
 }
 
-header {
-    background-image:url("https://solomonthelast.neocities.org/images/carpet.png");
+#header {
+    background-image:url("https://solomonthelast.neocities.org/images/cassette.jpg");
     padding: 10px 0;
     text-align: center;
 }
@@ -22,13 +22,8 @@ header.header-title img {
     display: block;
     margin-left: auto;
     margin-right: auto;    
- }
- nav {
+ 
+nav {
     padding: 10px 0;
     text-align: center;
- }
-nav.shitty-link img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
  }
