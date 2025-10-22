@@ -7,7 +7,7 @@
 /* this is the background */
 body {
     background-color:whitesmoke;
-    background-image:url("https://solomonthelast.neocities.org/images/cuteplant.gif");
+    background-image:url("images/cuteplant.gif");
     margin:0;
     /* padding:0; cursor: url("/cursor.png"), auto; */
 }
@@ -28,3 +28,18 @@ header {
     padding: 10px 0;
     text-align: center;
  }
+
+ main.main-page {
+    font-family: "Didot, serif";
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-image:url("images/cutemush.gif") ;
+ }
+
+ .aside-right-nav {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
