@@ -1,12 +1,12 @@
 body {
     background-color:whitesmoke;
-    background-image:url("images/SKY1.png");
+    background-image:url("https://solomonthelast.neocities.org/images/fishbanner.png");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 header {
-    background-image:url("images/fishbanner.png");
+    background-image:url("https://neocities.org/dashboard?dir=images#");
     padding: 10px 0;
     text-align: center;
 }
