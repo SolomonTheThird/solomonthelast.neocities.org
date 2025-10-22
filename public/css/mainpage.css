@@ -17,14 +17,14 @@ header {
     text-align: center;
 }
 
-header.header-title img {
+.header-title img {
     display: block;
     margin-left: auto;
     margin-right: auto;    
     }
 
 
-nav.shitty-link {
+.navigation-bar{
     padding: 10px 0;
     text-align: center;
  }
