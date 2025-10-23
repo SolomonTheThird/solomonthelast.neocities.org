@@ -6,7 +6,7 @@
 
 /* Background */
 .page-layout {
-  background-image: url("https://solomonthelast.neocities.org/images/skybg.png");
+  background-image: url("https://solomonthelast.neocities.org/images/sky.gif");
   margin: 0;
 }
 
@@ -24,7 +24,7 @@ header {
 .header-title img {
   display: inline-block; /* important: allow centering via text-align */
   margin: 0 auto;
-  cursor: ("https://solomonthelast.neocities.org/images/fishcursor.gif"), auto;
+  cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
 
 /* Layout for main and aside side-by-side */
