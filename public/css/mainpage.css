@@ -37,6 +37,7 @@ header {
 .shitty-link img {
   display: inline-block;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* Main content */

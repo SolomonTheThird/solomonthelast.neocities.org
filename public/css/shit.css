@@ -2,7 +2,7 @@ body {
     background-color:whitesmoke;
     background-image:url("https://solomonthelast.neocities.org/images/SKY1.png");
     height: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 header {
@@ -13,4 +13,5 @@ header.header-title img {
     display: flex;
     margin-left: auto;
     margin-right: auto;  
+    cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
  }
