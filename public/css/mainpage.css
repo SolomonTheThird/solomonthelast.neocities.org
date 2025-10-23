@@ -34,10 +34,12 @@ header {
   align-items: flex-start;
 }
 
+/*twitchy dog link image centering*/
 .shitty-link img {
   display: inline-block;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
+  cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
 
 /* Main content */
@@ -67,7 +69,7 @@ aside {
 }
 
 /* Sidebar content on the right */
-.aside-right-nav { 
-  width: 250px;
-  padding: 20px;
+.aside-right-nav {
+  width: 200px;
+  box-sizing: border-box;
 }
