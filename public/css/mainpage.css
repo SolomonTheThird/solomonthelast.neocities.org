@@ -5,11 +5,16 @@
 }
 
 /* this is the background */
-body {
+.page-layout {
     background-color:whitesmoke;
     background-image:url("images/cuteplant.gif");
     margin:0;
     /* padding:0; cursor: url("/cursor.png"), auto; */
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 header {
@@ -17,7 +22,7 @@ header {
     text-align: center;
 }
 
-header.header-title img {
+.header-title img {
     display: block;
     margin-left: auto;
     margin-right: auto;    
