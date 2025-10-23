@@ -4,47 +4,40 @@
   src: url("https://solomonthelast.neocities.org/fonts/MortisGhost.otf") format("opentype");
 }
 
-/* this is the background */
+/* Background */
 .page-layout {
-    background-color:whitesmoke;
-    background-image:url("images/cuteplant.gif");
-    margin:0;
-    /* padding:0; cursor: url("/cursor.png"), auto; */
+  background-color: whitesmoke;
+  background-image: url("images/cuteplant.gif");
+  margin: 0;
 }
+
+/* Stack header and nav vertically */
 .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
 
-header {
-    padding: 10px 0;
-    text-align: center;
+/* Layout for main and aside side-by-side */
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.header-title img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
-    }
+/* Main content */
+.main-page {
+  flex: 1;
+  font-family: "Didot, serif";
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  background-image: url("images/cutemush.gif");
+}
 
-
-.navigation-bar{
-    padding: 10px 0;
-    text-align: center;
- }
-
- main.main-page {
-    font-family: "Didot, serif";
-    font-size: 20px;
-    margin: 20px;
-    padding: 20px;
-    background-image:url("images/cutemush.gif") ;
- }
-
- main.aside-right-nav {
-    width: 250px;
-    background-color: #57a553;
-    padding: 20px;
-    border-left: 1px solid #ccc;
+/* Sidebar on the right */
+.aside-right-nav {
+  width: 250px;
+  background-color: #57a553;
+  padding: 20px;
+  border-left: 1px solid #ccc;
 }
