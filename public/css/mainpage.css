@@ -6,7 +6,6 @@
 
 /* Background */
 .page-layout {
-
   background-image: url("https://solomonthelast.neocities.org/images/skybg.png");
   margin: 0;
 }
@@ -54,5 +53,4 @@ header {
 .aside-right-nav {
   width: 250px;
   padding: 20px;
-  cursor:url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
