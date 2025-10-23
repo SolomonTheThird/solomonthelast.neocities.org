@@ -7,7 +7,7 @@
 /* Background */
 .page-layout {
 
-  background-image: url("https://solomonthelast.neocities.org/images/cuteplant.gif");
+  background-image: url("https://solomonthelast.neocities.org/images/skybg.png");
   margin: 0;
 }
 
@@ -25,6 +25,7 @@ header {
 .header-title img {
   display: inline-block; /* important: allow centering via text-align */
   margin: 0 auto;
+  cursor: ("https://solomonthelast.neocities.org/images/fishcursor.gif"), auto;
 }
 
 /* Layout for main and aside side-by-side */
@@ -53,4 +54,5 @@ header {
 .aside-right-nav {
   width: 250px;
   padding: 20px;
+  cursor:url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
