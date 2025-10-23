@@ -6,8 +6,8 @@
 
 /* Background */
 .page-layout {
-  background-color: whitesmoke;
-  background-image: url("images/cuteplant.gif");
+
+  background-image: url("https://solomonthelast.neocities.org/images/cuteplant.gif");
   margin: 0;
 }
 
@@ -15,6 +15,16 @@
 .content {
   display: flex;
   flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.header-title img {
+  display: inline-block; /* important: allow centering via text-align */
+  margin: 0 auto;
 }
 
 /* Layout for main and aside side-by-side */
@@ -31,13 +41,11 @@
   font-size: 20px;
   margin: 20px;
   padding: 20px;
-  background-image: url("images/cutemush.gif");
+  background-image: url("https://solomonthelast.neocities.org/images/cutemush.gif");
 }
 
 /* Sidebar on the right */
 .aside-right-nav {
   width: 250px;
-  background-color: #57a553;
   padding: 20px;
-  border-left: 1px solid #ccc;
 }
