@@ -35,7 +35,7 @@ header {
   align-items: flex-start;
 }
 
-nav {
+navigation-bar {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -43,7 +43,7 @@ nav {
 }
 
 /*twitchy dog link image centering*/
-.shitty-link img {
+.nav-links img {
   display: inline-block;
   margin: 0 auto;
   text-align: left;
