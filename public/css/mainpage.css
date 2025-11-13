@@ -35,19 +35,30 @@ header {
   align-items: flex-start;
 }
 
+.navigation-bar {
+  width: 100%;
+  background: transparent; /* or whatever background you use */
+  display: flex;
+  justify-content: center; /* centers .nav-links horizontally */
+}
+
 .nav-links {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: center; /* centers the images inside */
+  align-items: center;     /* vertically align if different heights */
+  gap: 20px;               /* space between them */
   padding: 10px 0;
 }
 
-/*nav links image centering*/
-.nav-links img {
-  display: inline-block;
-  margin: 0 auto;
-  text-align: left;
+.nav-links a img {
+  display: block;
+  margin: 0;
   cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
+}
+.nav-links img {
+  display: block;
+  margin: 0;
+  cursor: auto;
 }
 
 /* Main content */
