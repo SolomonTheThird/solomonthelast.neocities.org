@@ -51,25 +51,9 @@ header {
   padding: 20px;
   background-image: url("https://solomonthelast.neocities.org/images/cutemush.gif");
 }
-aside {
-  flex: auto;   
-  background-color: gainsboro;
-  padding: 10px;
-  margin: 20px;
-  border: 2px solid black;
-}
-/* Sidebar */
-aside {  
-  display: flex;
-  flex-direction: column;  
-  background-color: gainsboro;
-  padding: 10px;
-  margin: 20px;
-  border: 2px solid black;
-}
 
 /* Sidebar content on the right */
-.aside-right-nav {
+.aside-right-imgs {
   width: 200px;
   box-sizing: border-box;
 }
