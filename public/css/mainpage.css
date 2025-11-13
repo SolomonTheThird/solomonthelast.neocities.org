@@ -20,7 +20,7 @@ header {
   text-align: center;
   padding: 10px 0;
 }
-
+/* centered header img and added mouse cursor*/
 .header-title img {
   display: inline-block; /* important: allow centering via text-align */
   margin: 0 auto;
@@ -35,14 +35,14 @@ header {
   align-items: flex-start;
 }
 
-navigation-bar {
+.nav-links {
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 10px 0;
 }
 
-/*twitchy dog link image centering*/
+/*nav links image centering*/
 .nav-links img {
   display: inline-block;
   margin: 0 auto;
