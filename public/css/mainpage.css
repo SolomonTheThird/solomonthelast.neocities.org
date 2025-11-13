@@ -27,11 +27,19 @@ header {
   cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
 
+
 /* Layout for main and aside side-by-side */
 .page-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
 }
 
 /*twitchy dog link image centering*/
