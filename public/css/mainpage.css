@@ -53,13 +53,15 @@ header {
   display: block;
 }
 
-aside-right {
+.aside-right {
   background: silver;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: start;
-  align-self: stretch;
+  flex-direction: column; /* stack vertically */
+  gap: 10px; /* optional, spacing between images */
+  padding: 10px; /* optional, spacing inside aside */
+  box-sizing: border-box; /* prevent overflow due to padding */
+  max-width: 200px; /* optional, constrain width */
+  overflow-y: auto; /* scroll if content is taller than container */
 }
 
 .aside-left {
@@ -71,7 +73,7 @@ aside-right {
   align-self: stretch;
 }
 
-.aside-left img, .aside-right img {
+.aside-left img {
   max-width: 100%;
   height: auto;
 }
