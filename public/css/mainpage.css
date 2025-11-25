@@ -21,7 +21,7 @@ header {
   padding: 10px 0;
 }
 /* centered header img and added mouse cursor*/
-.header-title img {
+.header img {
   display: inline-block; /* important: allow centering via text-align */
   margin: 0 auto;
   cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
@@ -46,26 +46,9 @@ header {
   background: transparent; /* or whatever background you use */
   display: flex;
   justify-content: center; /* centers .nav-links horizontally */
-}
-
-.nav-links {
-  display: flex;
-  justify-content: center; /* centers the images inside */
-  align-items: center;     /* vertically align if different heights */
-  gap: 20px;               /* space between them */
-  padding: 10px 0;
-}
-
-.nav-links a img {
-  display: block;
-  margin: 0;
   cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
-.nav-links img {
-  display: block;
-  margin: 0;
-  cursor: auto;
-}
+
 
 
 /* Sidebar content on the right */
