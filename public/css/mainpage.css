@@ -51,11 +51,12 @@ header {
 
 
 /* Sidebar content on the right */
-.aside-right {
-  background: #ccc;       
-  padding: 15px;           
-  display: flex;           
-  flex-direction: column;  
-  gap: 10px;               
-  align-items: center;     
+.navigation-bar {
+  width: 500px;             
+  background: grey;
+  display: flex;
+  justify-content: center;   /* centers the *contents* */
+  gap: 20px;                 /* optional spacing between images */
+  margin: 0 auto;            /* centers the nav itself */
+  cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
