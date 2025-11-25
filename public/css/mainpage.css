@@ -64,12 +64,17 @@ header {
 
 .aside-left {
   display: flex;
-  flex-direction: row;  /* images go side by side */
-  flex-wrap: wrap;      /* wrap to next line if needed */
-  gap: 10px;            /* space between images */
-  align-items: center;  /* vertical alignment */
-  justify-content: center; /* center the images horizontally */
+  flex-direction: row; 
+  flex-wrap: wrap;      
+  gap: 10px;            
+  align-items: center;  
+  justify-content: center; 
   background: silver;
   padding: 10px;
-  width: 150px; /* or whatever fits your design */
+  width: 160px; 
+}
+
+.aside-left img {
+  width: 50px;
+  height: 50px;
 }
