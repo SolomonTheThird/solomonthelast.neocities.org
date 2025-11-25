@@ -53,7 +53,7 @@ header {
   display: block;
 }
 
-.aside-right, .aside-left {
+.aside-right {
   background: silver;
   display: flex;
   flex-direction: column;
@@ -63,5 +63,13 @@ header {
 }
 
 .aside-left {
-  width: 150px; 
+  display: flex;
+  flex-direction: row;  /* images go side by side */
+  flex-wrap: wrap;      /* wrap to next line if needed */
+  gap: 10px;            /* space between images */
+  align-items: center;  /* vertical alignment */
+  justify-content: center; /* center the images horizontally */
+  background: silver;
+  padding: 10px;
+  width: 150px; /* or whatever fits your design */
 }
