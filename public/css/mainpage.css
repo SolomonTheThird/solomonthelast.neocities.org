@@ -49,11 +49,14 @@ header {
   cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
 
-
-/* Sidebar content on the right */
-.aside-right-imgs {
+.aside-right {
+  display: flex;
   display: flex;
   flex-direction: column;
+  background-color: grey;
+}
+/* Sidebar content on the right */
+.aside-right-imgs {
   align-items: center;
   gap: 15px;
 }
