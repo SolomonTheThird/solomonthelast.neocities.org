@@ -43,18 +43,17 @@ header {
 
 .navigation-bar {
   width: 100%;
-  background: transparent; /* or whatever background you use */
+  background: grey;
   display: flex;
   justify-content: center; /* centers .nav-links horizontally */
   cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
 
 
-
 /* Sidebar content on the right */
-.aside-right-imgs {
+.aside-stuff img {
   flex: 1;
-  display: flex;
+  background-color: grey;
   flex-direction: column;
   align-items: center;
   gap: 15px;
