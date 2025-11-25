@@ -68,7 +68,6 @@ header {
   background: silver;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(50px, 1fr)); /* auto-wrapping columns */
-  gap: 5px; /* space between blinkies */
   padding: 10px;
   max-width: 220px; /* optional, constrain width */
   box-sizing: border-box;
