@@ -45,18 +45,19 @@ header {
   width: 100%;
   background: grey;
   display: flex;
-  justify-content: center; /* centers .nav-links horizontally */
+  justify-content: center; 
+  align-items: center;
+  gap: 20px;
   cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
 
+.navigation-bar img {
+  display: block;
+}
 
-/* Sidebar content on the right */
-.navigation-bar {
-  width: 500px;             
-  background: grey;
+.aside-right {
+  background: silver;
   display: flex;
-  justify-content: center;   /* centers the *contents* */
-  gap: 20px;                 /* optional spacing between images */
-  margin: 0 auto;            /* centers the nav itself */
-  cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
+  flex-flow: column;
+  gap: 10px 20px;
 }
