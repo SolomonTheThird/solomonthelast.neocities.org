@@ -56,18 +56,20 @@ header {
 .aside-right {
   background: silver;
   display: flex;
-  flex-flow: column wrap;
-  gap: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   align-self: stretch;
+  gap: 10px;
 }
 
 .aside-left {
+  background: silver;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;                 
   align-items: center;  
-  background: silver;
+  align-self: stretch;
   padding: 10px;
   width: 140px; 
 }
