@@ -56,7 +56,7 @@ header {
 .aside-right {
   background: silver;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   gap: 10px 20px;
   align-items: center;
   align-self: stretch;
