@@ -38,7 +38,7 @@ header {
 
 /* Main content */
 .main-page {
-  flex: 3;
+  flex: 4;
 }
 
 .navigation-bar {
@@ -48,7 +48,6 @@ header {
   justify-content: center; 
   align-items: center;
   gap: 20px;
-  cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
 
 .navigation-bar img {
@@ -57,6 +56,14 @@ header {
 
 .aside-right {
   background: silver;
+  display: flex;
+  flex-flow: column;
+  gap: 10px 20px;
+  align-items: center;
+}
+
+.aside-left {
+  background:silver;
   display: flex;
   flex-flow: column;
   gap: 10px 20px;
