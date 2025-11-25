@@ -66,13 +66,10 @@ header {
 
 .aside-left {
   background: silver;
-  display: flex;
-  flex-direction: row;   /* horizontal stacking */
-  flex-wrap: wrap;       /* allows wrapping to new lines */
-  gap: 5px;              /* spacing between blinkies */
-  padding: 10px;         /* optional padding */
-  max-width: 200px;      /* optional: constrain width */
-  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr)); 
+  gap: 5px;
+  padding: 10px;
 }
 
 .aside-left img {
