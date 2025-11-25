@@ -67,7 +67,7 @@ header {
 .aside-left {
   background: silver;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr)); /* auto-wrapping columns */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* auto-wrapping columns */
   padding: 10px;
   max-width: 220px; /* optional, constrain width */
   box-sizing: border-box;
