@@ -4,21 +4,15 @@
   src: url("https://solomonthelast.neocities.org/fonts/MortisGhost.otf") format("opentype");
 }
 body {
-  display: flex;
+  margin: 0;
 }
+
 
 /* Background */
 .page-layout {
   background-image: url("https://solomonthelast.neocities.org/images/sky.gif");
   margin: 0;
 }
-
-/* Stack header and nav vertically */
-.content {
-  display: flex;
-  flex-direction: column;
-}
-
 header {
   text-align: center;
   padding: 10px 0;
@@ -30,11 +24,6 @@ header {
   cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
 
-.main-page {
-  flex: 1; /* take remaining space */
-  background: #f0f0f0; /* optional */
-  padding: 10px;
-}
 
 /* Layout for main and asides */
 .page-container {
@@ -42,6 +31,13 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
+}
+
+/* Middle section */
+.main-page {
+  flex: 1; 
+  background: #f0f0f0; 
+  padding: 10px;
 }
 
 .navigation-bar {
@@ -60,11 +56,11 @@ header {
 .aside-right, .aside-left {
   background: silver;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   gap: 10px 20px;
   align-items: center;
 }
 
 .aside-left {
-  width: 150px; /* adjust to fit your images */
+  width: 150px; 
 }
