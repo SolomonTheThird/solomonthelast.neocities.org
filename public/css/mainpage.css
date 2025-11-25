@@ -42,11 +42,10 @@ header {
 
 .navigation-bar {
   width: 100%;
-  background: grey;
   display: flex;
   justify-content: center; 
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .navigation-bar img {
