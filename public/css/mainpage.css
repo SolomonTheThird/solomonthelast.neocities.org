@@ -64,8 +64,7 @@ header {
 
 .aside-left {
   display: flex;
-  flex-wrap: wrap;      
-  gap: 5px;            
+  flex-wrap: wrap;                 
   align-items: center;  
   justify-content: center; 
   background: silver;
