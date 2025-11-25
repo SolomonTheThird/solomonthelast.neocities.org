@@ -3,6 +3,9 @@
   font-family: "MortisGhost";
   src: url("https://solomonthelast.neocities.org/fonts/MortisGhost.otf") format("opentype");
 }
+body {
+  display: flex;
+}
 
 /* Background */
 .page-layout {
@@ -28,7 +31,7 @@ header {
 }
 
 
-/* Layout for main and aside side-by-side */
+/* Layout for main and asides */
 .page-container {
   display: flex;
   justify-content: space-between;
@@ -54,17 +57,10 @@ header {
   display: block;
 }
 
-.aside-right {
+.aside-right, .aside-left {
   background: silver;
   display: flex;
-  flex-flow: column;
+  flex-flow: column wrap;
   gap: 10px 20px;
   align-items: center;
-}
-
-.aside-left {
-  background:silver;
-  display: flex;
-  flex-flow: column;
-  gap: 10px 20px;
 }
