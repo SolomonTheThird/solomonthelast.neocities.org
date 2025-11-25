@@ -53,7 +53,7 @@ header {
   display: block;
 }
 
-.aside-right {
+.aside-right, .aside-left {
   background: silver;
   display: flex;
   flex-direction: column;
@@ -62,8 +62,6 @@ header {
 }
 
 .aside-left {
-  background: silver;
-  display: flex;
   width: 150px; 
-  flex-flow: column wrap;
+  height: 150px;
 }
