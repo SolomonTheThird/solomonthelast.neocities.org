@@ -63,4 +63,5 @@ header {
 
 .aside-left {
   width: 150px; 
+  flex-flow: column wrap;
 }
