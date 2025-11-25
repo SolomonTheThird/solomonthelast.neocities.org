@@ -30,6 +30,11 @@ header {
   cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
 }
 
+.main-page {
+  flex: 1; /* take remaining space */
+  background: #f0f0f0; /* optional */
+  padding: 10px;
+}
 
 /* Layout for main and asides */
 .page-container {
@@ -37,11 +42,6 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
-}
-
-/* Main content */
-.main-page {
-  flex: 4;
 }
 
 .navigation-bar {
@@ -63,4 +63,8 @@ header {
   flex-flow: column wrap;
   gap: 10px 20px;
   align-items: center;
+}
+
+.aside-left {
+  width: 150px; /* adjust to fit your images */
 }
