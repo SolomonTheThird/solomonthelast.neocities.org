@@ -33,6 +33,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 20px;
+}
+
+/* Main content */
+.main-page {
+  flex: 3;
 }
 
 .navigation-bar {
@@ -61,18 +67,12 @@ header {
   cursor: auto;
 }
 
-/* Main content */
-.main-page {
-  flex: 1;
-  font-family: "Didot, serif";
-  font-size: 20px;
-  margin: 20px;
-  padding: 20px;
-  background-image: url("https://solomonthelast.neocities.org/images/cutemush.gif");
-}
 
 /* Sidebar content on the right */
 .aside-right-imgs {
-  width: 200px;
-  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
