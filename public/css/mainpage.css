@@ -21,7 +21,7 @@ header {
 .header img {
   display: inline-block; /* important: allow centering via text-align */
   margin: 0 auto;
-  cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
+  cursor: url("https://solomonthelast.neocities.org/images/fishcursor.gif"), auto;
 }
 
 
@@ -53,15 +53,22 @@ header {
   display: block;
 }
 
-aside-left, .aside-right {
+aside-right {
   background: silver;
   display: flex;
-  flex-direction: column;  /* stack images vertically */
-  align-items: center;     /* center horizontally */
-  padding: 10px;
-  width: 120px;            /* consistent width for both sides */
-  gap: 10px;               /* spacing between images */
-  box-sizing: border-box;  /* include padding in width */
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: start;
+  align-self: stretch;
+}
+
+.aside-left {
+  background: silver;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: start;
+  align-self: stretch;
 }
 
 .aside-left img, .aside-right img {
