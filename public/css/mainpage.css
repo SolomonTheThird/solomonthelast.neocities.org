@@ -51,9 +51,8 @@ header {
 
 
 /* Sidebar content on the right */
-.aside-stuff img {
-  flex: 1;
-  background-color: grey;
+.aside-right-imgs {
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
