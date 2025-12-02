@@ -43,7 +43,7 @@ header {
 /*animation nav bar test */
 @keyframes navScroll {
   0% {transform: translate(0);}
-  100% {transform: translateX(50%);}
+  100% {transform: translateX(-50%);}
 }
 
 .ad-bar {
@@ -57,12 +57,12 @@ header {
   display: flex;
   width: max-content;
   animation-name: navScroll;
-  animation-duration: 12s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  animation: scroll 12s linear infinite;
 }
 
 .ad-bar img {
+  height: 60px
+  margin: 0 20px;
   display: block;
 }
 
