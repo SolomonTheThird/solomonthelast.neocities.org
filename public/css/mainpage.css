@@ -25,24 +25,31 @@ header {
 }
 
 .ads-bar {
+  overflow: hidden;           /* Hide images outside the bar */
+  background-color: #111;     /* Optional: dark background for retro feel */
+  padding: 10px 0;
+}
+
+.ads-animation {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   gap: 20px;
-  padding: 5px 0;
-  margin-bottom: 5px;
+  white-space: nowrap;        /* Prevent wrapping */
+  animation: scrollAds 20s linear infinite;
 }
 
 .ads-animation img {
- animation: 8s adScroll infinite; 
+  display: inline-block;
+  height: 80px;               /* Adjust to fit your layout */
+  width: auto;                /* Maintain aspect ratio */
 }
 
-@keyframes adScroll {
-  from {
-    translate: -140vw 0;
+/* Keyframes for continuous scrolling */
+@keyframes scrollAds {
+  0% {
+    transform: translateX(100%);   /* Start off right side */
   }
-  to {
-    translate: 140vw 0;
+  100% {
+    transform: translateX(-100%);  /* Move off left side */
   }
 }
 
