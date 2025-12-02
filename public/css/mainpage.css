@@ -34,15 +34,15 @@ header {
 }
 
 .ads-animation img {
- animation: 12s adScroll infinite; 
+ animation: 8s adScroll infinite; 
 }
 
 @keyframes adScroll {
   from {
-    translate: -150vw 0;
+    translate: -120vw 0;
   }
   to {
-    translate: 150vw 0;
+    translate: 120vw 0;
   }
 }
 
