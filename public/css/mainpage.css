@@ -39,10 +39,10 @@ header {
 
 @keyframes adScroll {
   from {
-    translate: -120vw 0;
+    translate: -140vw 0;
   }
   to {
-    translate: 120vw 0;
+    translate: 140vw 0;
   }
 }
 
