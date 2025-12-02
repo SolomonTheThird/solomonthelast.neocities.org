@@ -29,6 +29,7 @@ header {
   justify-content: center;
   gap: 20px;
   padding: 5px 0;
+  margin-bottom: 5px;
 }
 
 /* Layout for main and asides */
