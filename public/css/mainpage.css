@@ -35,7 +35,7 @@ header {
   display: flex;
   gap: 10px;
   white-space: nowrap;
-  animation: scrollAds 35s linear infinite;
+  animation: scrollAds 20s linear infinite;
 }
 
 .ads-animation img {
