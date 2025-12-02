@@ -21,9 +21,15 @@ header {
 .header img {
   display: inline-block; /* important: allow centering via text-align */
   margin: 0 auto;
-  cursor: url("https://solomonthelast.neocities.org/images/fishcursor.gif"), auto;
+  cursor: url("https://solomonthelast.neocities.org/images/fishcursor.gif")8 8, auto;
 }
 
+.ad-bar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px 0;
+}
 
 /* Layout for main and asides */
 .page-container {
@@ -31,6 +37,8 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 /* Middle section */
@@ -40,30 +48,6 @@ header {
   padding: 10px;
 }
 
-/*animation nav bar test */
-@keyframes navScroll {
-  0% {transform: translate(0);}
-  100% {transform: translateX(-50%);}
-}
-
-.ad-bar {
-  width: 100%;
-  overflow: hidden;
-  background: transparent;
-  margin-bottom: 15px;
-}
-
-.nav-animation {
-  display: flex;
-  width: max-content;
-  animation: navScroll 12s linear infinite;
-}
-
-.ad-bar img {
-  height: 60px;
-  margin: 0 20px;
-  display: block;
-}
 
 .aside-right {
   background: silver;
@@ -91,5 +75,5 @@ header {
 }
 
 .brainrot-link {
-  cursor: url("https://solomonthelast.neocities.org/images/wii.png"), auto;
+  cursor: url("https://solomonthelast.neocities.org/images/wii.png")8 8, auto;
 }
