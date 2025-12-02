@@ -19,7 +19,7 @@ header {
 }
 /* centered header img and added mouse cursor*/
 .header img {
-  display: inline-block; /* important: allow centering via text-align */
+  display: inline-block; 
   margin: 0 auto;
   cursor: url("https://solomonthelast.neocities.org/images/fishcursor.gif")8 8, auto;
 }
@@ -35,22 +35,22 @@ header {
   display: flex;
   gap: 10px;
   white-space: nowrap;
-  animation: scrollAds 20s linear infinite;
+  animation: scrollAds 15s linear infinite;
 }
 
 .ads-animation img {
   display: inline-block;
-  height: 40px;               /* Adjust to fit your layout */
-  width: auto;                /* Maintain aspect ratio */
+  height: 40px;               
+  width: auto;               
 }
 
 /* Keyframes for continuous scrolling */
 @keyframes scrollAds {
   0% {
-    transform: translateX(100%);   /* Start off right side */
+    transform: translateX(100%);   
   }
   100% {
-    transform: translateX(-100%);  /* Move off left side */
+    transform: translateX(-100%);  
   }
 }
 
