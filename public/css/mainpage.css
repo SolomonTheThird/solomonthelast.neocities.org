@@ -56,8 +56,7 @@ header {
 .nav-animation {
   display: flex;
   width: max-content;
-  animation-name: navScroll;
-  animation: scroll 12s linear infinite;
+  animation: navScroll 12s linear infinite;
 }
 
 .ad-bar img {
