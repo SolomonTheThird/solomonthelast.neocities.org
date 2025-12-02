@@ -25,21 +25,21 @@ header {
 }
 
 .ads-bar {
-  overflow: hidden;           /* Hide images outside the bar */
-  background-color: #111;     /* Optional: dark background for retro feel */
+  overflow: hidden;          
+  background-color: #111;
   padding: 10px 0;
 }
 
 .ads-animation {
   display: flex;
-  gap: 20px;
-  white-space: nowrap;        /* Prevent wrapping */
+  gap: 10px;
+  white-space: nowrap;
   animation: scrollAds 20s linear infinite;
 }
 
 .ads-animation img {
   display: inline-block;
-  height: 80px;               /* Adjust to fit your layout */
+  height: 40px;               /* Adjust to fit your layout */
   width: auto;                /* Maintain aspect ratio */
 }
 
