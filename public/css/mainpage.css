@@ -40,16 +40,29 @@ header {
   padding: 10px;
 }
 
-.navigation-bar {
+/*animation nav bar test */
+@keyframes navScroll {
+  0% {transform: translate(0);}
+  100% {transform: translateX(50%);}
+}
+
+.ad-bar {
   width: 100%;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  gap: 10px;
+  overflow: hidden;
+  background: transparent;
   margin-bottom: 15px;
 }
 
-.navigation-bar img {
+.nav-animation {
+  display: flex;
+  width: max-content;
+  animation-name: navScroll;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.ad-bar img {
   display: block;
 }
 
