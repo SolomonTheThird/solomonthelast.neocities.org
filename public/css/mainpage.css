@@ -32,6 +32,19 @@ header {
   margin-bottom: 5px;
 }
 
+.ads-animation img {
+ animation: 12s adScroll infinite; 
+}
+
+@keyframes adScroll {
+  from {
+    translate: -100vw 0;
+  }
+  to {
+    translate: 100vw 0;
+  }
+}
+
 /* Layout for main and asides */
 .page-container {
   display: flex;
